@@ -1,0 +1,46 @@
+body {
+  background: #fff;
+  color: #333;
+  font-family: Lato, sans-serif;
+}
+
+.container {
+  display: block;
+  width: 400px;
+  margin: 100px auto 0;
+}
+
+.table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 30px auto;
+}
+
+.item {
+  border: 1px solid black;
+  width: 220px;
+  height: 30px;
+}
+
+.item-actions {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 7px;
+}
+
+.edit-input {
+  height: 25px;
+  font-size: 17px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+}
